@@ -36,37 +36,6 @@ header{
 	border-bottom: 1px dotted #750035
 }
 
-/* Rules for nav menu */
-
-#menu li {
-	float: left;
-	border-left:1px solid white;
-	padding-left: 20px;
-	text-align:center;
-}
-
-#menu ul{
-	margin:0;
-	padding:0;
-	width:100%;
-	float:left;
-	border-right: 1px solid white;
-	list-style-type: none;
-	background-color:#750035;
-	overflow: hidden;
-}
-
-#menu ul:hover{
-	background-color:#750035;
-}
-
-#menu a{
-	color:white;
-	width: 250px;
-	display:block;
-	 
-}
-
 /* Two-column layout */
 
 #sidebar{
@@ -98,21 +67,65 @@ footer{
 
 /* Text and Typography */
 
-h1,h2,h3,h4,h5,h6 {
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 14px;
+}
 
+h1,h2,h3,h4,h5,h6 {
+	font-family: Georgia, serif;
 	font-variant: small-caps;
 	color:#750035;
 	border-bottom: 1px dotted #750035;
 }
 
-p a {
+a {
 	color: #9C1351;
+	text-decoration: none;
 	border-bottom: 1px dotted #9C1351;
 }
 
 
 
 /* Navigation Menu */
+
+#menu li {
+	float: left;
+	border-left:1px solid white;
+	/*padding-left: 20px;*/
+	text-align:center;
+}
+
+#menu ul{
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color:#750035;
+	float:left;
+	border-right: 1px solid white;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+#menu a:hover{
+	color:#750035;
+	background-color:white;
+}
+
+#menu a{
+	font-family: Georgia, serif;
+	font-weight: 1.6em;
+	text-decoration: none;
+	color:white;
+	width: 250px;
+	display:block;
+	padding-left: 24px;
+	 
+}
+
+.active {
+	background-color: #033959;
+}
 
 /* Images and tables */
 
