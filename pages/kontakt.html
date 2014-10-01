@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Kontakt</title>
 <meta charset="utf-8">
+<title>Kontakt</title>
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
 </head>
 <body>
 
 <div id="container">
 
 <header>
-	<!-- Insert header here-->
+	
+<nav id="menu">
+<ul>
+	<li><a href="../index.html">Start</a></li>
+	<li><a href="laborationer.html">Laborationer</a></li>
+	<li><a href="presentation.html">Presentation</a></li>
+	<li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+</nav>
 
 </header>
 
@@ -37,8 +46,8 @@
 		</p>
 
 		<p>
-			<label>Ditt namn:</label>
-			<input name="name" type="text" required>
+			<label for="name">Ditt namn:</label>
+			<input id="name" name="name" type="text" required>
 		</p>
 
 		<p>
@@ -61,7 +70,7 @@
 	<fieldset>
 		<legend>Svara mig:</legend>
 		<p>
-			<input type="radio" name="answer_type" value="mail"> Kontakta mig via epost
+			<label><input type="radio" name="answer_type" value="mail"> Kontakta mig via epost</label>
 		</p>
 
 		<p>
