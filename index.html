@@ -33,14 +33,29 @@
 <h1>Kursblogg</h1>
 
 <article>
+	<a name="labb2"><h2>Laboration 2</h2></a>
+	<img class="instagram right" src="pics/norway.jpeg" alt="Hoddevika, Norway">
+
+	<p>Nu har man ju blivit klart med den andra laborationsuppgiften också, var ju roligt att få fräscha upp CSS-kunskaperna lite grann. Jag brukar använda mig av rätt minimalistiska färgschema och layout men valde denna gång att köra på lite mer färger, olika nyanser av blått med vinröd som kontrastfärg.</p>
+	
+	<p>Bilden är tagen i Hoddevika i Norge och känns passande till laborationen, vägen till stranden är lite som vägen till en design som man är nöjd med. Inte raka vägen men en del svängar, backa lite och testa om, tills det ser ut precis så som man hade tänkt sig.</p>
+
+</article>
+
+<article>
 	
 	<a name="envideomedvideotaggen"><h2>En video med videotaggen</h2></a>
-	<p>Med den video-taggen som finns med i HTML5 har jag här lagt in en video. Videon kommer från <a href="http://www.bigbuckbunny.org">Big Buck Bunny</a> och används under Creative Commons enligt <a href="http://creativecommons.org/licenses/by/3.0/legalcode">CC BY 3.0</a>.</p>
 
-	<div class="right"><video width="320" height="240" controls>
+	<video width="320" height="240" class="left" controls>
 		<source src="videos/bigbuckbunny.mp4" type="video/mp4">
 		Din webbläsare stödjer inte video-taggen <!--Visas _endast_ om inte video-taggen stöds-->
-	</video></div>
+	</video>
+
+	<p>Med den video-taggen som finns med i HTML5 har jag här lagt in en video. Videon kommer från <a href="http://www.bigbuckbunny.org">Big Buck Bunny</a> och används under Creative Commons enligt <a href="http://creativecommons.org/licenses/by/3.0/legalcode">CC BY 3.0</a>.</p>
+
+	<p>Video-taggen känns väldigt mer lättanvänd än att behöva köra olika plugins eller ha hosting någon annanstans och sedan bädda in videon med embed. </p>
+
+	<p>Jag tycker även att det är bra att man kan lägga in texten som ska visas om inte videotaggen stöds direkt i elementet istället för i en alt-attribut, det blir ju lätt rörigt med alt="" om man vill ha mer text än några enstaka ord.</p>
 
 </article>
 
@@ -63,7 +78,7 @@
 </section> <!-- close section#main-->
 
 <footer>
-	<!--Insert footer code here-->
+	<p class="smaller cursive">Denna sida är skapad av Pepyn Swagemakers som en del av kursen <a href="https://coursepress.lnu.se/kurs/webbteknisk-introduktion/">Webbteknisk Introduktion</a> och finns att se som källkod <a href="https://github.com/ps222nq/1IK415_ps222nq_laborationer">på GitHub</a>.</p>
 </footer>
 
 </div> <!--Close div#container-->

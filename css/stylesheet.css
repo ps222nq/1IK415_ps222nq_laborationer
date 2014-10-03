@@ -4,12 +4,6 @@
  Course 1IK415
  */
 
-/* Import */
-
-/* @import "reset.css"; */
-
-
-
 
 /* Page Structure */
 
@@ -25,8 +19,6 @@ body{
 	margin:0px auto;
 	padding: 15px;
 	text-align: left;
-
-	/*debug purpose border & background, change later*/
 	border:2px solid black; 
 	background-color: #BAE3FB;
 }
@@ -34,7 +26,6 @@ body{
 header{
 	background-image: url('../pics/logo.png');
 	background-repeat: no-repeat;
-
 	min-height: 140px;
 	border-bottom: 1px dotted #750035
 }
@@ -51,8 +42,7 @@ header{
 
 }
 
-#main {
-	/*position:absolute; */
+#main {				/* Contains main content of the page, articles/blog posts etc*/
 	width:600px;
 	padding-left:16px;
 	float:right;
@@ -62,10 +52,11 @@ header{
 footer{
 
 	clear:both;
-	border: 1px solid blue;
-
-	/* debug purposes, remove*/
-	min-height: 100px;
+	color:white;
+	background-color: #033959;
+	height: 90px;
+	text-align: center;
+	padding-top: 2em;
 
 }
 
@@ -188,6 +179,16 @@ img{
 .640 {
 	width:640px;
 	height:480px;
+}
+
+.320 {
+	width:320px;
+	height:240px;
+}
+
+.instagram {
+	width:240px;
+	height:240px;
 }
 
 
