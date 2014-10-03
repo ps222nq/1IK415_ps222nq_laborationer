@@ -47,23 +47,27 @@
 		</p>
 
 		<p>
-			<label for="name">Ditt namn:</label>
+			<label for="name">Ditt namn:
 			<input id="name" name="name" type="text" required>
+			</label>
 		</p>
 
 		<p>
-			<label>Din epost:</label>
-			<input name="name" type="email" required>
+			<label for="mail">Din epost:
+			<input id="mail" name="mail" type="email" required>
+			</label>
 		</p>
 
 		<p>
-			<label>Ditt telefonnummer:</label>
-			<input name="name" type="tel" required>
+			<label for="phone">Ditt telefonnummer:
+			<input id="phone" name="phone" type="tel" required>
+			</label>
 		</p>
 
 		<p>
-			<label>Meddelande:</label>
-			<textarea name="message" placeholder="Skriv ditt meddelande här..."></textarea>
+			<label for="message">Meddelande:
+			<textarea id="message" name="message" placeholder="Skriv ditt meddelande här..."></textarea>
+			</label>
 		</p>
 
 	</fieldset>
@@ -75,7 +79,7 @@
 		</p>
 
 		<p>
-			<input type="radio" name="answer_type" value="mail"> Kontakta mig via telefon
+			<label><input type="radio" name="answer_type" value="mail"> Kontakta mig via telefon</label>
 		</p>
 
 		<input type="submit" name="submit" value="Skicka">

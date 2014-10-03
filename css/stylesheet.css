@@ -144,6 +144,14 @@ img{
 	max-width:100%;
 }
 
+/* Forms */ 
+
+form{background-color:#c7e8fb;padding:1em 0.2em; }
+
+fieldset{border:1px solid #750035;margin:1.2em;}
+
+legend{background-color: #750035;color:white;padding:2px;}
+
 
 /* Helper Classes */
 
@@ -190,7 +198,3 @@ img{
 	width:240px;
 	height:240px;
 }
-
-
-
-
