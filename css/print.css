@@ -1,0 +1,35 @@
+/* print.css */
+/* A print-friendly stylesheet*/
+/* Author: Pepyn Swagemakers*/
+
+/* Page Structure */
+
+#main {
+	float:left;
+	clear:both;
+	width:900px;
+}
+
+/*Colors and typography */
+
+body { 
+  color : #000000; 
+  background : #ffffff; 
+  font-family : "Times New Roman", Times, serif;
+  font-size : 12pt; 
+}
+
+a { 
+color : #0000ff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	border-bottom: none;
+	text-decoration : underline; 
+  	color : #000000; 
+
+}
+
+a:link:after, a:visited:after { content:" [" attr(href) "] "; } /* Prints URL after link */
+
+nav {display:none;}
