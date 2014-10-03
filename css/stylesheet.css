@@ -47,6 +47,8 @@ header{
 	padding-left: 16px;
 	float: left;
 	border-left:1px dotted #750035;
+
+
 }
 
 #main {
@@ -139,9 +141,55 @@ header h1 {
 
 /* Images and tables */
 
+table {
+	border-collapse: collapse;
+}
+
+table,th,td {
+	border:1px solid black;
+}
+
+img{
+	max-width:100%;
+}
+
 
 /* Helper Classes */
 
-.left{}
+.circular{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	background: url(../pics/pepyn.jpeg) no-repeat;
 
-.right{}
+}
+
+.left{
+	float:left;
+	margin:10px;
+}
+
+.right{
+	float:right;
+	margin:10px;
+}
+
+.smaller {
+	font-size:smaller;
+	font-weight:300;
+}
+
+.cursive{
+	font-style:italic;
+}
+
+.640 {
+	width:640px;
+	height:480px;
+}
+
+
+
+
