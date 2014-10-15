@@ -159,7 +159,7 @@ header h1 {
 	background-color:white;
 }
 
-#presentation a{								/*links to presentation, portrait icon*/
+#presentation a{								/*links to presentation, displays portrait icon*/
 	background: url("../pics/sprite.png") 0 -192px;
 	background-repeat: no-repeat;
 }
@@ -171,7 +171,7 @@ header h1 {
 	background-color:white;
 }
 
-#kontakt a{										/*links to kontakt, envelope icon*/
+#kontakt a{										/*links to kontakt, displays envelope icon*/
 	background: url("../pics/sprite.png") 0 -288px;
 	background-repeat: no-repeat;
 
