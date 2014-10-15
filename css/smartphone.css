@@ -2,3 +2,52 @@
 /*	A stylesheet for media up to 480px	*/
 /*	Author: Pepyn Swagemakers	*/
 
+/*Import original stylesheet as boilerplate*/
+
+@import url("stylesheet.css");
+
+/* Page structure */
+body{padding:0px;margin:0px;max-width:320px;overflow-x: hidden;}
+
+#container{
+	margin: 2px;
+	padding:0px;
+	padding-right: 9px;
+	width:320px;
+	max-width: 95%;
+}
+
+h1,h2,section, article{
+	max-width: 100%;
+	margin-left:8px;
+}
+
+header{
+	background-image: none;
+	min-height: 2em;
+}
+
+header h1 {padding-top: 0px;}
+
+p{clear: both;}
+
+
+/* Menu Bar */
+#menu ul{width:320px;}
+
+#menu li{
+	clear:both;
+	margin:5px 0px;
+	width:320px;
+}
+
+#menu li a {width:320px;text-align: center;}
+
+.left .right{
+	float:left;
+	margin:1em auto !important;
+	max-width:100%;
+}
+
+video.left{width:90%;height:90%;}
+
