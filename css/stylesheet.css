@@ -97,6 +97,8 @@ header h1 {
 	border-left:1px solid white;
 	/*padding-left: 20px;*/
 	text-align:center;
+	height:24px;
+
 }
 
 #menu ul{
@@ -123,12 +125,64 @@ header h1 {
 	width: 250px;
 	display:block;
 	padding-left: 24px;
+	height:24px;
 	 
 }
 
 .active {
 	background-color: #033959;
 }
+
+/* CSS sprites in menu bar */
+#start a{
+	background: url("../pics/sprite.png") 0 0;
+	background-repeat: no-repeat;
+}
+
+#start a:hover{
+	background: url("../pics/sprite.png") 0 -48px;
+	background-repeat: no-repeat;
+	color:#750035;
+	background-color:white;
+}
+
+#labs a{
+	background: url("../pics/sprite.png") 0 -96px;
+	background-repeat: no-repeat;
+}
+
+#labs a:hover{
+	background: url("../pics/sprite.png") 0 -144px;
+	background-repeat: no-repeat;
+	color:#750035;
+	background-color:white;
+}
+
+#presentation a{
+	background: url("../pics/sprite.png") 0 -192px;
+	background-repeat: no-repeat;
+}
+
+#presentation a:hover{
+	background: url("../pics/sprite.png") 0 -240px;
+	background-repeat: no-repeat;
+	color:#750035;
+	background-color:white;
+}
+
+#kontakt a{
+	background: url("../pics/sprite.png") 0 -288px;
+	background-repeat: no-repeat;
+
+}
+
+#kontakt a:hover{
+	background: url("../pics/sprite.png") 0 -336px;
+	background-repeat: no-repeat;
+	color:#750035;
+	background-color:white;
+}
+
 
 /* Images and tables */
 
