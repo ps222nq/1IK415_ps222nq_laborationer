@@ -134,7 +134,8 @@ header h1 {
 }
 
 /* CSS sprites in menu bar */
-#start a{
+
+#start a{ 										/* links to index, displays house icon */
 	background: url("../pics/sprite.png") 0 0;
 	background-repeat: no-repeat;
 }
@@ -146,19 +147,19 @@ header h1 {
 	background-color:white;
 }
 
-#labs a{
+#labs a{										/*links to laborationer, displays hammer icon*/
 	background: url("../pics/sprite.png") 0 -96px;
 	background-repeat: no-repeat;
 }
 
-#labs a:hover{
+#labs a:hover{									
 	background: url("../pics/sprite.png") 0 -144px;
 	background-repeat: no-repeat;
 	color:#750035;
 	background-color:white;
 }
 
-#presentation a{
+#presentation a{								/*links to presentation, portrait icon*/
 	background: url("../pics/sprite.png") 0 -192px;
 	background-repeat: no-repeat;
 }
@@ -170,7 +171,7 @@ header h1 {
 	background-color:white;
 }
 
-#kontakt a{
+#kontakt a{										/*links to kontakt, envelope icon*/
 	background: url("../pics/sprite.png") 0 -288px;
 	background-repeat: no-repeat;
 
