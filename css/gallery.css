@@ -8,6 +8,12 @@
 
 html,body{}
 
+body{
+	background-image: url('../pics/gallery_background.jpg') ;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
 #container{}
 
 header{}
@@ -19,6 +25,8 @@ header{}
 /*Fonts and typography*/
 /*--------------------*/
 
+@import url("http://fonts.googleapis.com/css?family=Special+Elite");
+
 body{}
 
 h1{}
@@ -28,3 +36,4 @@ h1{}
 /* Gallery */
 /*---------*/
 
+a img {max-width: 320px; max-height:320px;} /*temporary, fix this*/
