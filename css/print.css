@@ -12,6 +12,8 @@
 
 /*Colors and typography */
 
+img{max-width:300px;max-height:300px;}
+
 body { 
   color : #000000; 
   background : #ffffff; 
