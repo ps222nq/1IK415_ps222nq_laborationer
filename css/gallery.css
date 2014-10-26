@@ -6,8 +6,6 @@
 /*Page Structure*/
 /*--------------*/
 
-html,body{}
-
 body{
 	background-image: url('../pics/gallery_background.jpg') ;
 	background-repeat:no-repeat;
@@ -26,7 +24,9 @@ header{
 	text-align: center;
 }
 
-h1{padding-top:1em; padding: auto;}
+h1{
+	padding-top:1em; 
+	padding: auto;}
 
 #main_gallery{}
 
@@ -47,6 +47,7 @@ a{
 	color:black;
 }
 
+/*Display links title attribute as image caption*/
 a:after{
 	content:attr(title);
 	font-family: 'Special Elite', cursive;
@@ -80,7 +81,6 @@ a:hover{ /*Apply properties for all transforms here, let nth:child determine sca
 	/*1st img*/
 	-webkit-transform:scale(1.25) rotate(-5deg);
 	-moz-transform:scale(1.25) rotate(-5deg);
-
 }
 
 #main_gallery a:nth-child(2n):hover{
@@ -106,11 +106,3 @@ a:hover{ /*Apply properties for all transforms here, let nth:child determine sca
 	-moz-transition: all 1.2s ease-in-out;
 	-webkit-transition: all 1.2s ease-in-out;
 }
-
-
-
-
-
-
-
-
