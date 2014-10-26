@@ -14,7 +14,9 @@ body{
 	background-size:cover;
 }
 
-#container{margin: 1em 3em;}
+#container{
+	margin: 1em 3em;
+}
 
 header{
 	width:100%; 
@@ -35,15 +37,22 @@ h1{padding-top:1em; padding: auto;}
 
 @import url("http://fonts.googleapis.com/css?family=Special+Elite");
 
-body{}
 
-h1{}
+h1{
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
 
 a{
 	text-decoration: none;
 	color:black;
 }
 
+a:after{
+	content:attr(title);
+	font-family: 'Special Elite', cursive;
+	font-size:18px;
+	margin-top:4px;
+}
 
 /*---------*/
 /* Gallery */
@@ -52,8 +61,6 @@ a{
 a img {
 	width: 180px; 
 	height:180px;
-	
-
 } 
 
 .polaroid{
@@ -64,19 +71,46 @@ a img {
 	width: 180px;
 }
 
-a:hover{
--webkit-transform:scale(1.25);
--moz-transform:scale(1.25);
-position: relative;
-z-index: 4;
--moz-transition: all 0.2s ease-in-out;
--webkit-transition: all 0.2s ease-in-out;
+a:hover{ /*Apply properties for all transforms here, let nth:child determine scaling and rotation*/
+	position: relative;
+	z-index: 4;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+
+	/*1st img*/
+	-webkit-transform:scale(1.25) rotate(-5deg);
+	-moz-transform:scale(1.25) rotate(-5deg);
+
 }
 
-a:after{
-	content:attr(title);
-	font-family: 'Special Elite', cursive;
-	font-size:18px;
-	margin-top:4px;
-	
+#main_gallery a:nth-child(2n):hover{
+	-webkit-transform:scale(1.25) rotate(5deg);
+	-moz-transform:scale(1.25) rotate(5deg);
 }
+
+#main_gallery a:nth-child(3n):hover{
+	-webkit-transform:scale(1.55) rotate(-3deg);
+	-moz-transform:scale(1.55) rotate(-3deg);
+
+}
+
+#main_gallery a:nth-child(5n):hover{
+	-webkit-transform:scale(1.4) rotate(14deg);
+	-moz-transform:scale(1.4) rotate(14deg);
+
+}
+
+#main_gallery a:nth-child(7n):hover{
+	-webkit-transform:scale(1.4) rotate(370deg);
+	-moz-transform:scale(1.4) rotate(370deg);
+	-moz-transition: all 1.2s ease-in-out;
+	-webkit-transition: all 1.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
