@@ -70,37 +70,40 @@ a img {
 	margin: 10px 48px;
 	display:inline-block;
 	width: 180px;
+	box-shadow: 5px 5px 2px 1px #484848;
 }
 
-a:hover{ /*Apply properties for all transforms here, let nth:child determine scaling and rotation*/
+a:hover, a:focus{ /*Apply properties for all transforms here, let nth:child determine scaling and rotation*/
 	position: relative;
 	z-index: 4;
 	-moz-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
+	box-shadow: 10px 10px 2px 1px #484848;
+}
 
-	/*1st img*/
+#main_gallery a:nth-child(1n):hover, #main_gallery a:nth-child(1n):focus{
 	-webkit-transform:scale(1.25) rotate(-5deg);
 	-moz-transform:scale(1.25) rotate(-5deg);
 }
 
-#main_gallery a:nth-child(2n):hover{
+#main_gallery a:nth-child(2n):hover, #main_gallery a:nth-child(2n):focus{
 	-webkit-transform:scale(1.25) rotate(5deg);
 	-moz-transform:scale(1.25) rotate(5deg);
 }
 
-#main_gallery a:nth-child(3n):hover{
+#main_gallery a:nth-child(3n):hover, #main_gallery a:nth-child(3n):focus{
 	-webkit-transform:scale(1.55) rotate(-3deg);
 	-moz-transform:scale(1.55) rotate(-3deg);
 
 }
 
-#main_gallery a:nth-child(5n):hover{
+#main_gallery a:nth-child(5n):hover, #main_gallery a:nth-child(5n):focus{
 	-webkit-transform:scale(1.4) rotate(14deg);
 	-moz-transform:scale(1.4) rotate(14deg);
 
 }
 
-#main_gallery a:nth-child(7n):hover{
+#main_gallery a:nth-child(7n):hover, #main_gallery a:nth-child(7n):focus{
 	-webkit-transform:scale(1.4) rotate(370deg);
 	-moz-transform:scale(1.4) rotate(370deg);
 	-moz-transition: all 1.2s ease-in-out;
